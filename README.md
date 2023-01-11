@@ -7,4 +7,5 @@ More features are going to be added.
 
 一些可能的网站：
 [easy quotation](https://github.com/shidenggui/easyquotation)
+[back trader](https://www.backtrader.com/docu/quickstart/quickstart/)
 
