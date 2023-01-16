@@ -4,7 +4,7 @@ import datetime
 # 初始化pro接口
 class DataCrawler:
     def __init__(self):
-        ts.set_token('cec4e42d2a123798c0b63bd39f9a95b898ac1d1be410b02524f0dca5')
+        ts.set_token(os.environ['TUSHARE_TOKEN'])
         self.pro = ts.pro_api()
         self.data_path = os.path.join(os.path.dirname(__file__), 'data')
         if not os.path.exists(self.data_path):
