@@ -21,7 +21,7 @@ class DataCrawler:
         try:
             is_open = os.environ['IS_CSV_FORMAT']
             if is_open == '1':
-                df.to_csv(os.path.join(self.data_path, ts_code + '.csv'))
+                df.to_csv(os.path.join(self.data_path, ts_code + '.csv'),mode='a', header=False)
             print("获取数据成功, 以csv格式保存在data目录下")
             return df
         except KeyError:

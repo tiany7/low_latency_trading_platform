@@ -1,0 +1,4 @@
+# ignore the data_crawler/data directory
+/data_crawler/data/
+# ignore all .pyc files
+*.pyc
